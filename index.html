@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>conversion de divisas</title>
+<meta charset="UTF-8" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" 
+integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+<link rel="stylesheet" href="style.css">
+</head>
+<script type="text/javascript" src="funciones.js"></script>
+<body onload="llenarSelect()">    
+<div class="divPadre">
+<div class="divHijo">
+	<div class="divCentro">
+        <img src="images/divisa.png"/><br>
+	    <input style="width:80%" class="texto" id="cantidad" type="text" placeholder="Digite cantidad"/>
+    </div>
+    <div style="justify-content: center;display: inline;">
+        <select id="divisas"  class="texto">            
+        </select>
+        <select id="divisas2" class="texto"></select>    
+	    <button class="texto" style="background-color: rgb(3, 201, 3); margin-left: 5%;" type="button" onclick="convertirDivisas();">Convertir</button>	
+        <div  class="divValidaciones">
+            <p id="excepcion" style="color: white; text-align: center;padding-top: 5px;" >Validaciones Formulario</p>
+        </div>
+    </div>
+</div>
+</div>
+</div>
+
+</body>
+</html>
