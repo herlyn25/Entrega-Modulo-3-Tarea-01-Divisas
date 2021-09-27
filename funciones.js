@@ -35,7 +35,7 @@ function convertirDivisas(){
     }else if (op1=="Dolar" && op2=="Libra Esterlina") {
         resultado=valor*0.73;           
     } else if(op1=="Peso Mexicano" && op2=="Dolar"){
-        resultado=valor*0,05;
+        resultado=valor*0.05;
     }else if (op1=="Peso Mexicano" && op2=="Peso Colombiano") {
         resultado=valor*190.53;           
     }else if (op1=="Peso Mexicano" && op2=="Euro") {
